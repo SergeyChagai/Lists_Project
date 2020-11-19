@@ -89,7 +89,7 @@ namespace DataStructures
                 tmp = tmp.Next;
             }
 
-            if (Length == 0 && array.Length != 0)
+            if (Length == 0)
                 _root = _root.Next;
 
             Length += array.Length;
