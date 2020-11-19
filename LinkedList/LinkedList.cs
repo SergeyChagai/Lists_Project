@@ -77,7 +77,9 @@ namespace DataStructures
 
         public void Add(int[] array)
         {
-            if (Length == 0 && array.Length != 0)
+            if (array.Length == 0)
+                return;
+            if (Length == 0)
                 _root = new Node(array[0]);
 
             Node tmp = GetNode(Length - 1);

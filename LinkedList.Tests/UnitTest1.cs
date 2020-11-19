@@ -69,6 +69,7 @@ namespace Linked_List.Tests
         [TestCase(1, new int[] { 10, 20 }, 1)]
         [TestCase(2, new int[] { }, 2)]
         [TestCase(3, new int[] { 10, 20}, 3)]
+        [TestCase(3, new int[] { }, 5)]
         [TestCase(4, new int[] { int.MaxValue, int.MinValue }, 4)]
         public void AddTest(int case_of_list, int[] array, int case_of_exp_list)
         {
@@ -871,7 +872,7 @@ namespace Linked_List.Tests
                     list = new LinkedList(new int[] { 1, int.MaxValue, int.MinValue});
                     return list;
                 case 5:
-                    list = new LinkedList(new int[] { 10, 5, 10, 20, 40, 30 });
+                    list = new LinkedList(new int[] { });
                     return list;
                 default:
                     throw new ArgumentException();
