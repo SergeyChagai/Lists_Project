@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LinkedList\Lists.csproj" />
+    <ProjectReference Include="..\DoubleLinkedList\Lists.csproj" />
   </ItemGroup>
 
 </Project>

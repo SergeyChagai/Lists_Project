@@ -63,7 +63,6 @@ namespace DataStructures
             {
                 Node newNode = new Node(n);
                 _root = newNode;
-                newNode.Next = null;
                 Length = 1;
             }
             else
